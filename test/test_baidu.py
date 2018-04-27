@@ -40,5 +40,5 @@ class TestBaiDu(unittest.TestCase):
 if __name__ == '__main__':
     report = REPORT_PATH + '\\report.html'
     with open(report, 'wb') as f:
-        runner = HTMLTestRunner(f, verbosity=2, title='从0搭建测试框架', description='修改html报告')
+        runner = HTMLTestRunner(f, verbosity=2, title='从0搭建测试框架 灰蓝', description='修改html报告')
         runner.run(TestBaiDu('test_search'))
