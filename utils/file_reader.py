@@ -85,6 +85,6 @@ if __name__ == '__main__':
     # print(reader.data)
 
     e = r'D:\Test_framework\data\baidu.xlsx'
-    # reader = ExcelReader(e, title_line=True)
-    reader = ExcelReader(e, title_line=False)
+    reader = ExcelReader(e, title_line=True)
+    # reader = ExcelReader(e, title_line=False)
     print(reader.data)
